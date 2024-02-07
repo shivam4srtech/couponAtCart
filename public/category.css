@@ -1,0 +1,27 @@
+.category-box{
+    margin-bottom: 1.2rem;
+}
+.category-item{
+    border: 1px solid #cccccc;
+}
+.cat-img img{
+    max-width:45%;
+    display: block;
+    margin: auto;
+    aspect-ratio: 2/3;
+    object-fit: contain;
+}
+.category-title {
+    text-align: center;
+    margin-bottom: .6rem;
+}
+.category-title a{
+    color: #222;
+    font-weight: 500;
+    font-size: .95rem;
+}
+@media(max-width:500px){
+    .category-title a{
+        font-size: .8rem;
+    }
+}

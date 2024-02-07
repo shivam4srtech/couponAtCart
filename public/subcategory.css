@@ -1,0 +1,118 @@
+.category-header{
+    border: 2px solid #2c2f6f;
+    border-radius: 5px;
+    border-radius: 12px;
+    padding: .5rem;
+}
+.header-img{
+    border: 1px solid #8043dc;
+    display: flex;
+    padding: .5rem;
+    border-radius: 12px 0px 0px 12px;
+}
+.header-img img{
+    max-width: 45%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    aspect-ratio: 3/3;
+}
+.coupon-deal{
+    border-radius: 0px 12px 12px 0px;
+    background-color: #8043dc;
+    padding: .5rem;
+    color: #fff;
+}
+.coupon-deal h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.header-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-info span{
+    font-weight: 500;
+    border: 1px solid #fff;
+    padding: .4rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .header-img{
+        border-radius: 12px 12px 0px 0px;
+    }
+    .coupon-deal{
+        border-radius: 0px 0px 12px 12px;
+        background-color: #8043dc;
+        padding: 1rem .5rem 1rem .5rem;
+        color: #fff;
+    }
+}
+/* ****************Deal boxes*************** */
+.deal-box{
+    border: 2px solid #8043dc;
+    border-radius: 12px;
+    margin-bottom: 1.8rem;
+}
+.deal-item{
+    border-radius: 12px 0px 0px 12px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.deal-item img{
+    max-width: 70%;
+    display: block;
+    object-fit: contain;
+    aspect-ratio: 3/1;
+}
+.deal-item h3{
+    font-weight: 600;
+    color: #8043dc;
+    font-size: 1rem;
+    margin-top: .8rem;
+}
+.deal-desc{
+    background-color: #8043dc;
+    color: #fff;
+    border-radius: 0px 12px 12px 0px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+.deal-desc button{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.deal-desc span{
+    display: block;
+    text-transform: uppercase;
+}
+.deal-desc .tag{
+    color: #aeacef;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    font-size: .85rem;
+}
+.deal-desc span:nth-of-type(2), .deal-desc span:nth-of-type(3){
+   color:#fff;
+   font-weight: 800;
+   font-size: 1.8rem;
+}
+.deal-desc button{
+    display: block;
+    outline: none;
+    border: none;
+    background-color: #768be6;
+    color: #fff;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin: .5rem auto;
+}

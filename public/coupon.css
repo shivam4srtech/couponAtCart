@@ -1,0 +1,100 @@
+body{
+    background-color: #f8f8f8;
+}
+/* ****************Store Search Bar******************** */
+.store-search form{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1.76rem;
+    background-color: #8043dc;
+    padding: .2rem .8rem;
+}    
+.store-search form input{
+    width: 77%;
+    border-radius: 1.76rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+    padding: .7rem 1rem;
+}
+::placeholder{
+    color: #FFF;
+}
+
+.store-search form button{
+    width: 22%;
+    border-radius: 1.76rem;
+    outline: none;
+    border: none;
+    padding: .7rem 0rem;
+    box-shadow: 2px 2px 10px #fff;
+    font-weight: 500;
+    color: #222;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: .2s ease;
+}
+.store-search form button:hover{
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+@media(max-width:770px){
+    .store-search form input{
+        padding: .5rem 1rem;
+        width: 72%;
+    }
+    .store-search form button{
+        padding: .5rem 1rem;
+        width: 25%;
+    }
+}
+/* *************************ALL STORES************************** */
+.store{
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.store-box{
+    margin-bottom: 2.2rem;
+}
+.store-item{
+    border: 1px solid #dbd9d9;
+    /* box-shadow: 2px 2px 10px #949393; */
+    border-radius: 4px;
+    background-color: #FFF;
+}
+.store-image img{
+    display: block;
+    margin: auto;
+    max-width: 75%;
+    padding: .6rem 0rem;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+.store-coupon{
+    text-align: center;
+    border-top: 1px solid #e1e1e4;
+    margin-top: 1rem;
+}
+.store-coupon a{
+    display: block;
+    color: #333a3f;
+    font-weight: 500;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-size: .9rem;
+}
+@media(max-width:600px){
+    .store-coupon a{
+        font-size: .8rem;
+    }
+}
+/* ********************Navigation*********************** */
+.navigation .navigation-box{
+    background-color: #f5f1f1;
+    
+}

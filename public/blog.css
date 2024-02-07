@@ -1,0 +1,115 @@
+body{
+    background-color: #ecf0f1;
+}
+.blog-header{
+    background-color: #fff;
+    border-radius: 4px 4px 0px 0px;
+    box-shadow: 5px 5px 10px #d7d6d6;
+}
+.blog-title h1{
+    font-size: 1.7rem;
+    color: #222;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.social button{
+    outline: none;
+    margin: .4rem;
+    padding: .3rem .8rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: .2s ease;
+    font-size: .9rem;
+}
+.social button:nth-of-type(1){
+    background-color: #3a579a;
+}
+.social button:nth-of-type(2){
+    background-color: #00abf0;
+}
+.social button:nth-of-type(3){
+    background-color: #cd1c1f;
+}
+.social button:nth-of-type(4){
+    background-color: #25d366;
+}
+.social button:nth-of-type(5){
+    background-color: #333333;
+}
+.social button:hover{
+    background-color: #333;
+}
+@media(max-width:768px){
+    .social button:nth-of-type(3), .social button:nth-of-type(5){
+        display: none;
+    }
+    .social button{
+        font-size: .74rem;
+        margin: .2rem;
+    }
+}
+.social button i{
+    margin-right: .5rem;
+}
+.blog-header .date{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2.8rem;
+    border-bottom: 1px solid #adadad;
+}
+.blog-header .date span{
+    color: #202020;
+    font-size: .9rem;
+    margin-right: 1rem;
+}
+.blog-header .date span:nth-of-type(2){
+    color: #424242;
+    font-size: .85rem;
+}
+.blog-header .main-image{
+    margin-top: 2rem;
+}
+.main-image img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.blog-content{
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1.4rem;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 5px 5px 10px #d7d6d6;
+}
+.blog-content img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.blog-content .para{
+    margin-top: 1rem;
+}
+.para p{
+    line-height: 1.5;
+    letter-spacing: .8px;
+
+}
+.sub-heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sub-heading h3{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+/* ********************Navigation*********************** */
+.navigation .navigation-box{
+    background-color: #f3eeee;
+}
+.navigation .blog-header{
+    background-color: #f3eeee;
+    border-radius: 4px;
+}

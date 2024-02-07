@@ -1,0 +1,290 @@
+/* ***********************Coupon Header******************* */
+.coupon-header{
+    margin-top: 4rem;
+}
+.coupon-img{
+    display: flex;
+}
+.img-block{
+    border: 1px solid #eae4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-block:hover{
+    border: 1px solid #8043dc;
+}
+.coupon-img img{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.coupon-box{
+    border-bottom: 1px solid #eae4e4;
+    padding-bottom: 4rem;
+}
+.coupon-box .coupon-title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+.coupon-box .coupon-desc{
+    line-height: 1.4;
+    font-weight: 500;
+    color: #232323;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 1rem;
+}
+.social button{
+    outline: none;
+    margin: .4rem;
+    padding: .3rem .8rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: .2s ease;
+    font-size: .9rem;
+}
+.social button:nth-of-type(1){
+    background-color: #3a579a;
+}
+.social button:nth-of-type(2){
+    background-color: #00abf0;
+}
+.social button:nth-of-type(3){
+    background-color: #cd1c1f;
+}
+.social button:nth-of-type(4){
+    background-color: #25d366;
+}
+.social button:nth-of-type(5){
+    background-color: #333333;
+}
+.social button:hover{
+    background-color: #333;
+}
+@media(max-width:768px){
+    .social button:nth-of-type(3), .social button:nth-of-type(5){
+        display: none;
+    }
+    .social button{
+        font-size: .74rem;
+        margin: .2rem;
+    }
+}
+.social button i{
+    margin-right: .5rem;
+}
+@media(max-width:992px){
+    .img-block{
+        border: none;
+    }
+    .coupon-img{
+     border:  1px solid #eae4e4;
+     display: block;
+     width: 100%;
+     margin-bottom: 1.2rem;
+     padding: 1rem;
+    }
+}
+/* *******************************List Coupons************************ */
+.list-coupon{
+    border: 1px solid #eae4e4;
+    margin-bottom: 1.6rem;
+}
+.list-coupon .row{
+    border-bottom: 1rem;
+}
+.coupon-discount{
+    display: flex;
+    border-right: 1px solid #eae4e4;
+    justify-content: center;
+}
+.coupon-discount .discount-tag{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.discount-tag span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.discount-tag strong{
+    font-weight: 800;
+    font-size: 3rem;
+    color: #8043dc;
+}
+.coupon-discount, .coupon-info{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.tags span, .rating .total{
+    margin-right: .6rem;
+    font-weight: 500;
+    font-size: .85rem;
+    color: #999999;
+}
+.tags{
+    margin-top: .6rem;
+    color: #067d32;
+    font-size: .85rem;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
+.tags i{
+    margin-right: .4rem;
+}
+
+.rating i{
+    color: #ff8b02;
+    cursor: pointer;
+}
+.coupon-info .desc{
+    font-weight: 500;
+    font-size: .96rem;
+    margin-bottom: 1rem;
+    color: #000;
+    margin-top: .5rem;
+}
+.coupon-info button{
+    border: none;
+    outline: none;
+    background-color: #8043dc;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .5rem 2.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    margin: .5rem auto 0rem auto;
+    transition: .2s ease-in;
+}
+.coupon-info button:hover{
+    background-color: #8983d5;
+}
+@media(max-width:992px){
+    .coupon-discount{
+        border-right: none;
+        border-bottom: 1px solid #eae4e4;
+    }
+    .coupon-info{
+        text-align: center;
+    }
+    .coupon-info button{
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
+}
+@media(max-width:768px){
+    .rating{
+        display: block;
+        margin: .5rem auto;
+    }
+}
+/* ***********************MORE STORE************* */
+.more-store{
+    border: 1px solid #d2d0d0;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+@media(max-width:768px){
+    .more-store{
+        text-align: center;
+    }
+}
+/* ************************FAQ********************* */
+.fAq{
+    padding: .5rem;
+}
+.fAq h2{
+    color: #000;
+    font-weight: 600;
+    margin: 1rem 0rem;
+    font-size: 1.85rem;
+}
+.fAq h3{
+    color: #000;
+    font-weight: 600;
+    margin: 1rem 0rem;
+    font-size: 1.5rem;
+}
+.fAq p{
+    color: #3f372f;
+    font-size: .95rem;
+    line-height: 1.8;
+}
+/* ****************************Releted Store************************* */
+.store-box button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1162ff;
+    border-radius: 6px;
+    padding: .2rem 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+.store-box button:hover{
+    background-color: #d9d4f6;
+    color: #062f82;
+}
+.store-box h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.related-store{
+    margin-bottom: 1.2rem;
+}
+.related-item{
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.related-item img{
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+    margin: auto;
+}
+.related-item a{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.related-item a:nth-of-type(2){
+    border-top:  1px solid #a09f9f;
+    padding-top: .2rem;
+}
+.icons button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+/* **************************** */
+#unlockDeal{
+    background-color: #2158d7;
+}
+#unlockDeal i{
+    margin-right: .5rem;
+}
+#unlockDeal:hover{
+    background-color: #34549f;
+}

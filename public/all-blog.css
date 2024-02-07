@@ -1,0 +1,170 @@
+
+body{
+    background-color: #f5f5f5;
+}
+.category-item img{
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #8983d5;
+    padding: .1rem;
+}
+.category-title{
+    display: block;
+    text-align: center;
+    margin-top: .5rem;
+    font-weight: 600;
+    color: #8983d5;
+    font-size: .95rem;
+}
+@media(max-width:500px){
+    .category-title{
+        font-size: .72rem;
+    }
+}
+.dropdown-menu{
+    appearance: none;
+}
+.dropdown-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-center button{
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.dropdown-center ul li{
+    padding-top: 1rem;
+    border-bottom: 1px solid #d9d5d5;
+}
+/* **************************Subscribe********************************** */
+
+.subscribe button{
+    border: none;
+    background-color: #8043dc;
+    color: #fff;
+    padding: .4rem 1.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    border-radius: 4px;
+}
+.subscribe button i{
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+.subscribe button:hover{
+    background-color: #8983d5;
+}
+
+/* *********************Listing Blogs************************ */
+.all-blog{
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+.blog-item{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: .5rem .5rem 1rem .5rem;
+    margin-bottom: 1.4rem;
+    box-shadow: 5px 5px 10px #cbcaca;
+}
+
+.blog-item img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+.blog-item a{
+    display: block;
+}
+.blog-category{
+    color: #5399f0;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: .6rem;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+.blog-item .description{
+    margin-bottom: 1rem;
+}
+.blog-item .description a{
+    color: #3b4d5b;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+.blog-item .date, .blog-item .time{
+    font-size: .8rem;
+}
+.blog-item .time{
+    color: #afbeca;
+}
+.page-btn button{
+    border: none;
+    outline: none;
+    background-color: #8043dc;
+    color: #fff;
+    font-weight: 500;
+    padding: .8rem 1rem;
+    margin: 2rem;
+    border-radius: 2px;
+    transition: .3s ease;
+}
+.page-btn button span{
+    margin: .5rem;
+}
+.page-btn button:hover{
+    background-color: #8983d5;
+}
+/* *****************subscribe modal body*********************** */
+.subscribe-pop form{
+    display: block;
+}
+.subscribe-pop .input-box{
+    outline: none;
+    width: 76%;
+    border: 2px solid #8043dc;
+    padding: .6rem .2rem;
+}
+.subscribe-pop form button{
+    outline: none;
+    width: 24%;
+    border: 1px solid #8043dc;
+    background-color: #8043dc;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .6rem .2rem;
+}
+.subscribe-pop .policy-info{
+    font-size: .85rem;
+    color: #222;
+    font-weight: 500;
+}
+.policy-info a{
+    color: #2158d7;
+    cursor: pointer;
+}
+.policy-info a:hover{
+   text-decoration: underline;
+}
+@media(max-width:500px){
+    .subscribe-pop .input-box{
+        width: 74%;
+    }
+    .subscribe-pop form button{
+        width: 26%;
+        font-size: .7rem;
+    }
+}
+/* ********************Navigation*********************** */
+.navigation .navigation-box{
+    background-color: #f4eded;
+    
+}
